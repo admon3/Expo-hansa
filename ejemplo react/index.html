@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hansa</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+    	.brand-logo{
+    		padding-left: 20px !important;
+    	}
+    </style>
+</head>
+<body>
+  	<div id="container"></div>
+  	<div>
+ 
+			<div class="fixed-action-btn">
+			  <a class="btn-floating btn-large red">
+			    <i class="large material-icons">chat_bubble_outline</i>
+			  </a>
+			  <ul>
+			    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+			    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+			    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+			    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+			  </ul>
+			</div>
+      
+    </div>
+
+        <footer class="page-footer indigo">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">HANSA</h5>
+                <p class="grey-text text-lighten-4">Call Center Servicio Técnico,  Tel: (591)  214 9878,  solumedlpz@hansa.com.bo</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Regionales</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">La Paz</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Cochabamba</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Santa Cruz</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">Tel: 2667376</a>
+            </div>
+          </div>
+        </footer>
+            
+  	<script src="js/jquery-3.2.1.min.js"></script>
+  	<script src="js/materialize.min.js"></script>
+  	<script src='js/react.min.js'></script>
+	<script src='js/react-dom.min.js'></script>
+	<script src='js/ReactRouter.min.js'></script>
+    <script  src="js/index.js"></script>
+    <script>
+    	$(document).ready(function(){
+		    $('.sidenav').sidenav();
+		    $('.slider').slider();
+		    $('.fixed-action-btn').floatingActionButton();
+		});
+    </script>
+</body>
+</html>
